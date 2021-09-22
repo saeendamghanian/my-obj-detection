@@ -1,0 +1,13 @@
+<img id="id-img" src="../../../assets/img/a30e6fce-efa6-4e32-ab4f-9edbd2659fdc (2) - Copy.jpeg" alt="">
+<canvas id="player-canvas" style="width: 800px;height: 800px;"></canvas>
+<image-cropper
+    [imageChangedEvent]="imageChangedEvent"
+    [maintainAspectRatio]="true"
+    [aspectRatio]="4 / 3"
+    format="png"
+    (imageCropped)="imageCropped($event)"
+    (imageLoaded)="imageLoaded()"
+    (cropperReady)="cropperReady()"
+    (loadImageFailed)="loadImageFailed()"
+></image-cropper>
+<img [src]="croppedImage" alt="">
