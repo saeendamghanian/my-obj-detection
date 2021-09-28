@@ -15,7 +15,7 @@ import { MediaPipeComponent } from './components/media-pipe/media-pipe.component
     CropImageComponent,
     ObjDetectionComponent,
     CropperImgComponent,
-    MediaPipeComponent
+    MediaPipeComponent,
   ],
   imports: [
     BrowserModule,
