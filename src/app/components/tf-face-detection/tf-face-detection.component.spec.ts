@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MediaPipeComponent } from './media-pipe.component';
+import { TfFaceDetectionComponent } from './tf-face-detection.component';
 
-describe('MediaPipeComponent', () => {
-  let component: MediaPipeComponent;
-  let fixture: ComponentFixture<MediaPipeComponent>;
+describe('TfFaceDetectionComponent', () => {
+  let component: TfFaceDetectionComponent;
+  let fixture: ComponentFixture<TfFaceDetectionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MediaPipeComponent ]
+      declarations: [ TfFaceDetectionComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MediaPipeComponent);
+    fixture = TestBed.createComponent(TfFaceDetectionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
