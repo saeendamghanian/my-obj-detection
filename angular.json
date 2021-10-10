@@ -26,7 +26,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/media-pipe.js",
+              "src/assets/js/test.js"
+            ]
           },
           "configurations": {
             "production": {
